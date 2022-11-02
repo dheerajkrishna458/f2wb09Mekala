@@ -10,5 +10,5 @@ block content
             div.col-sm-2(onclick=`buy(${index})`) Tire Name: #{item["tire_name"]}  <br>  Tire_size: #{item["tire_size"]} <br> Tire_type: #{item["tire_type"]} 
   script.
       function buy(index){
-         alert("you purchased item "+index)
+         alert("you purchased item "+(index+1))
       }
